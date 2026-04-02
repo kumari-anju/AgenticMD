@@ -1,0 +1,61 @@
+# Node.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.pnp
+frontend/.pnp.*
+frontend/next-env.d.ts
+frontend/*.tsbuildinfo
+
+# Python
+fast-backend/__pycache__/
+fast-backend/.venv/
+fast-backend/venv/
+fast-backend/env/
+fast-backend/ENV/
+fast-backend/.pytest_cache/
+fast-backend/.coverage
+fast-backend/htmlcov/
+fast-backend/.python-version
+fast-backend/*.py[cod]
+fast-backend/*$py.class
+fast-backend/*.so
+fast-backend/.Python
+fast-backend/build/
+fast-backend/develop-eggs/
+fast-backend/dist/
+fast-backend/downloads/
+fast-backend/eggs/
+fast-backend/.eggs/
+fast-backend/lib/
+fast-backend/lib64/
+fast-backend/parts/
+fast-backend/sdist/
+fast-backend/var/
+fast-backend/wheels/
+fast-backend/*.egg-info/
+fast-backend/.installed.cfg
+fast-backend/*.egg
+
+# Common
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+.vscode/
+.idea/
+
+# Database
+fast-backend/*.db
+fast-backend/*.sqlite3
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vercel
+*.pem
